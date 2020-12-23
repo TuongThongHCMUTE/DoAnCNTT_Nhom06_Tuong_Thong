@@ -1,0 +1,14 @@
+﻿@model List<Model.EF.Menu>
+
+<div class="menu">
+    <ul>
+        <li class="active"><a href="/">Trang chủ</a></li>
+        @foreach (var item in Model)
+        {   if (item.Text != "Trang chủ")
+            {
+                <li><a href="@item.Link" target="@item.Target">@item.Text</a></li>
+            }
+        }
+        <div class="clear"></div>
+    </ul>
+</div>

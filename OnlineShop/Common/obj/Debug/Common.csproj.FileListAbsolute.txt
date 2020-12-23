@@ -1,0 +1,6 @@
+E:\TAI_LIEU_HOC_DAI_HOC\2020-2021_HK1\WEB PROGRAMMING\Final_Project\OnlineShop\Common\bin\Debug\Common.dll
+E:\TAI_LIEU_HOC_DAI_HOC\2020-2021_HK1\WEB PROGRAMMING\Final_Project\OnlineShop\Common\bin\Debug\Common.pdb
+E:\TAI_LIEU_HOC_DAI_HOC\2020-2021_HK1\WEB PROGRAMMING\Final_Project\OnlineShop\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+E:\TAI_LIEU_HOC_DAI_HOC\2020-2021_HK1\WEB PROGRAMMING\Final_Project\OnlineShop\Common\obj\Debug\Common.dll
+E:\TAI_LIEU_HOC_DAI_HOC\2020-2021_HK1\WEB PROGRAMMING\Final_Project\OnlineShop\Common\obj\Debug\Common.pdb
+E:\TAI_LIEU_HOC_DAI_HOC\2020-2021_HK1\WEB PROGRAMMING\Final_Project\OnlineShop\Common\obj\Debug\Common.csprojAssemblyReference.cache

@@ -1,0 +1,14 @@
+﻿@model List<OnlineShop.Models.CartItem>
+<div class="cart">
+    <p>
+        Chào mừng bạn đến với website <span><a href="/gio-hang">Giỏ hàng:</a></span><div id="dd" class="wrapper-dropdown-2">
+            @Model.Count sản phẩm
+            <ul class="dropdown">
+                @foreach (var item in Model)
+                {
+                    <li><a href="/chi-tiet/@item.Product.MetaTitle-@item.Product.ID">@item.Product.Name - @item.Product.Price.ToString("N0")</a></li>
+                }
+            </ul>
+        </div>
+    </p>
+</div>

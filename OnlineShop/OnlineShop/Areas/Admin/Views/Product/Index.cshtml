@@ -1,0 +1,139 @@
+﻿@using PagedList.Mvc;
+@model PagedList.IPagedList<Model.EF.Product>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layouts.cshtml";
+    var listProductCategory = (SelectList)ViewBag.ProductCategoryID;
+}
+@section header{
+    Danh mục sản phẩm
+}
+
+@section jsfooter{
+    <script src="~/assets/admin/js/controller/productController.js"></script>
+}
+
+<div class="card mb-4">
+    <div class="card-header">
+        <i class="fas fa-table mr-1"></i>
+        DataTable
+    </div>
+
+    <div class="card-body">
+        <div>
+            <!-- Search form -->
+            @using (Html.BeginForm("Index", "Product", FormMethod.Get, new { @class = "d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search" }))
+            {
+                <div class="input-group">
+                    <input type="text" value="@ViewBag.SearchString" id="search-user-text" class="form-control bg-light border-0 small" placeholder="Tìm kiếm sản phẩm..."
+                           aria-label="Search" aria-describedby="basic-addon2" name="searchString">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" type="submit">
+                            <i class="fas fa-search fa-sm"></i>
+                        </button>
+                        <a class="btn btn-success right" href="/Admin/Product/Create" style="margin-left: 10px; border-radius: 4px">
+                            Thêm mới
+                        </a>
+                    </div>
+                </div>
+            }
+
+            <style>
+                .input-group {
+                    padding-bottom: 20px;
+                }
+
+                #search-user-text {
+                    width: 450px;
+                }
+            </style>
+        </div>
+
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Tên sản phẩm</th>
+                        <th>Mã sản phẩm</th>
+                        <th>Danh mục</th>
+                        <th>Số lượng</th>
+                        <th>Đơn giá</th>
+                        <th>Hiển thị lên trang chủ</th>
+                        <th>Trạng thái</th>
+                        <th>#</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <th>ID</th>
+                        <th>Tên sản phẩm</th>
+                        <th>Mã sản phẩm</th>
+                        <th>Danh mục</th>
+                        <th>Số lượng</th>
+                        <th>Đơn giá</th>
+                        <th>Hiển thị lên trang chủ</th>
+                        <th>Trạng thái</th>
+                        <th>#</th>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr id="row_@item.ID">
+                            <td>@item.ID</td>
+                            <td>@item.Name</td>
+                            <td>@item.Code</td>
+                            <td>@listProductCategory.Where(x => x.Value == item.CategoryID.ToString()).FirstOrDefault().Text</td>
+                            <td>@item.Quantity</td>
+                            <td>@item.Price</td>
+                            <td>
+                                <a href="#" id="show-on-home" class="btn-active" data-id="@item.ID">@Html.Raw(item.ShowOnHome == true ? "Hiển thị" : "Ẩn")</a>
+                            </td>
+                            <td>
+                                <a href="#" id="status" class="btn-active" data-id="@item.ID">@Html.Raw(item.Status == true ? "Còn kinh doanh" : "Ngừng kinh doanh")</a>
+                            </td>
+                            <td>
+                                <a href="/Admin/Product/Edit/@item.ID">Sửa</a> |
+                                @Ajax.ActionLink("Xóa", "Delete", new { @id = item.ID }, new AjaxOptions
+                            {
+                                Confirm = "Bạn có muốn xóa bản ghi này?",
+                                OnComplete = "$('#row_" + @item.ID + "').remove()",
+                                HttpMethod = "Delete"
+                            })
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <div>
+                @Html.PagedListPager(Model, page => Url.Action("Index", new { page, @searchString = @ViewBag.SearchString })
+            )
+            </div>
+        </div>
+
+        <fieldset>
+            <div>
+                @using (Html.BeginForm("ExportToExcel", "Product", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                {
+                    <div>
+                        <input type="submit" value="Export" class="btn btn-primary" />
+                    </div>
+                }
+            </div>
+
+            <div>
+                @using (Html.BeginForm("ImportFromExcel", "Product", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                {
+                    @Html.ValidationSummary();
+                    <input type="file" name="postedFile" />
+                    <div>
+                        <input type="submit" button id="upload" value="Import" class="btn btn-success" />
+                    </div>
+                }
+            </div>
+
+        </fieldset>
+
+    </div>
+</div>

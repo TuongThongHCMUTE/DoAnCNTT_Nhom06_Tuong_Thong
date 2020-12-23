@@ -1,0 +1,64 @@
+E:\TEDU Chanel\ASP.NET MVC\Series02\OnlineShop\Model\bin\Debug\Model.dll.config
+E:\TEDU Chanel\ASP.NET MVC\Series02\OnlineShop\Model\bin\Debug\Model.dll
+E:\TEDU Chanel\ASP.NET MVC\Series02\OnlineShop\Model\bin\Debug\Model.pdb
+E:\TEDU Chanel\ASP.NET MVC\Series02\OnlineShop\Model\bin\Debug\EntityFramework.dll
+E:\TEDU Chanel\ASP.NET MVC\Series02\OnlineShop\Model\bin\Debug\EntityFramework.SqlServer.dll
+E:\TEDU Chanel\ASP.NET MVC\Series02\OnlineShop\Model\bin\Debug\EntityFramework.xml
+E:\TEDU Chanel\ASP.NET MVC\Series02\OnlineShop\Model\bin\Debug\EntityFramework.SqlServer.xml
+E:\TEDU Chanel\ASP.NET MVC\Series02\OnlineShop\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+E:\TEDU Chanel\ASP.NET MVC\Series02\OnlineShop\Model\obj\Debug\Model.csproj.CopyComplete
+E:\TEDU Chanel\ASP.NET MVC\Series02\OnlineShop\Model\obj\Debug\Model.dll
+E:\TEDU Chanel\ASP.NET MVC\Series02\OnlineShop\Model\obj\Debug\Model.pdb
+E:\TEDU Chanel\ASP.NET MVC\Series02\OnlineShop\Model\bin\Debug\PagedList.dll
+E:\TEDU Chanel\ASP.NET MVC\Series02\OnlineShop\Model\bin\Debug\PagedList.Mvc.dll
+E:\TEDU Chanel\ASP.NET MVC\Series02\OnlineShop\Model\bin\Debug\PagedList.xml
+E:\TEDU Chanel\ASP.NET MVC\Series02\OnlineShop\Model\bin\Debug\PagedList.Mvc.xml
+E:\TEDU Chanel\ASP.NET MVC\Series02\OnlineShop\Model\obj\Debug\Model.csprojAssemblyReference.cache
+E:\TAI_LIEU_HOC_DAI_HOC\2020-2021_HK1\WEB PROGRAMMING\Final_Project\ThongDinh\OnlineShop\Model\bin\Debug\Model.dll.config
+E:\TAI_LIEU_HOC_DAI_HOC\2020-2021_HK1\WEB PROGRAMMING\Final_Project\ThongDinh\OnlineShop\Model\bin\Debug\Model.dll
+E:\TAI_LIEU_HOC_DAI_HOC\2020-2021_HK1\WEB PROGRAMMING\Final_Project\ThongDinh\OnlineShop\Model\bin\Debug\Model.pdb
+E:\TAI_LIEU_HOC_DAI_HOC\2020-2021_HK1\WEB PROGRAMMING\Final_Project\ThongDinh\OnlineShop\Model\bin\Debug\EntityFramework.dll
+E:\TAI_LIEU_HOC_DAI_HOC\2020-2021_HK1\WEB PROGRAMMING\Final_Project\ThongDinh\OnlineShop\Model\bin\Debug\EntityFramework.SqlServer.dll
+E:\TAI_LIEU_HOC_DAI_HOC\2020-2021_HK1\WEB PROGRAMMING\Final_Project\ThongDinh\OnlineShop\Model\bin\Debug\PagedList.dll
+E:\TAI_LIEU_HOC_DAI_HOC\2020-2021_HK1\WEB PROGRAMMING\Final_Project\ThongDinh\OnlineShop\Model\bin\Debug\PagedList.Mvc.dll
+E:\TAI_LIEU_HOC_DAI_HOC\2020-2021_HK1\WEB PROGRAMMING\Final_Project\ThongDinh\OnlineShop\Model\bin\Debug\EntityFramework.xml
+E:\TAI_LIEU_HOC_DAI_HOC\2020-2021_HK1\WEB PROGRAMMING\Final_Project\ThongDinh\OnlineShop\Model\bin\Debug\EntityFramework.SqlServer.xml
+E:\TAI_LIEU_HOC_DAI_HOC\2020-2021_HK1\WEB PROGRAMMING\Final_Project\ThongDinh\OnlineShop\Model\bin\Debug\PagedList.xml
+E:\TAI_LIEU_HOC_DAI_HOC\2020-2021_HK1\WEB PROGRAMMING\Final_Project\ThongDinh\OnlineShop\Model\bin\Debug\PagedList.Mvc.xml
+E:\TAI_LIEU_HOC_DAI_HOC\2020-2021_HK1\WEB PROGRAMMING\Final_Project\ThongDinh\OnlineShop\Model\obj\Debug\Model.csprojAssemblyReference.cache
+E:\TAI_LIEU_HOC_DAI_HOC\2020-2021_HK1\WEB PROGRAMMING\Final_Project\ThongDinh\OnlineShop\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+E:\TAI_LIEU_HOC_DAI_HOC\2020-2021_HK1\WEB PROGRAMMING\Final_Project\ThongDinh\OnlineShop\Model\obj\Debug\Model.csproj.CopyComplete
+E:\TAI_LIEU_HOC_DAI_HOC\2020-2021_HK1\WEB PROGRAMMING\Final_Project\ThongDinh\OnlineShop\Model\obj\Debug\Model.dll
+E:\TAI_LIEU_HOC_DAI_HOC\2020-2021_HK1\WEB PROGRAMMING\Final_Project\ThongDinh\OnlineShop\Model\obj\Debug\Model.pdb
+E:\TAI_LIEU_HOC_DAI_HOC\2020-2021_HK1\WEB PROGRAMMING\Final_Project\OnlineShop\Model\bin\Debug\Model.dll.config
+E:\TAI_LIEU_HOC_DAI_HOC\2020-2021_HK1\WEB PROGRAMMING\Final_Project\OnlineShop\Model\bin\Debug\Model.dll
+E:\TAI_LIEU_HOC_DAI_HOC\2020-2021_HK1\WEB PROGRAMMING\Final_Project\OnlineShop\Model\bin\Debug\Model.pdb
+E:\TAI_LIEU_HOC_DAI_HOC\2020-2021_HK1\WEB PROGRAMMING\Final_Project\OnlineShop\Model\bin\Debug\EntityFramework.dll
+E:\TAI_LIEU_HOC_DAI_HOC\2020-2021_HK1\WEB PROGRAMMING\Final_Project\OnlineShop\Model\bin\Debug\EntityFramework.SqlServer.dll
+E:\TAI_LIEU_HOC_DAI_HOC\2020-2021_HK1\WEB PROGRAMMING\Final_Project\OnlineShop\Model\bin\Debug\PagedList.dll
+E:\TAI_LIEU_HOC_DAI_HOC\2020-2021_HK1\WEB PROGRAMMING\Final_Project\OnlineShop\Model\bin\Debug\PagedList.Mvc.dll
+E:\TAI_LIEU_HOC_DAI_HOC\2020-2021_HK1\WEB PROGRAMMING\Final_Project\OnlineShop\Model\bin\Debug\EntityFramework.xml
+E:\TAI_LIEU_HOC_DAI_HOC\2020-2021_HK1\WEB PROGRAMMING\Final_Project\OnlineShop\Model\bin\Debug\EntityFramework.SqlServer.xml
+E:\TAI_LIEU_HOC_DAI_HOC\2020-2021_HK1\WEB PROGRAMMING\Final_Project\OnlineShop\Model\bin\Debug\PagedList.xml
+E:\TAI_LIEU_HOC_DAI_HOC\2020-2021_HK1\WEB PROGRAMMING\Final_Project\OnlineShop\Model\bin\Debug\PagedList.Mvc.xml
+E:\TAI_LIEU_HOC_DAI_HOC\2020-2021_HK1\WEB PROGRAMMING\Final_Project\OnlineShop\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+E:\TAI_LIEU_HOC_DAI_HOC\2020-2021_HK1\WEB PROGRAMMING\Final_Project\OnlineShop\Model\obj\Debug\Model.csproj.CopyComplete
+E:\TAI_LIEU_HOC_DAI_HOC\2020-2021_HK1\WEB PROGRAMMING\Final_Project\OnlineShop\Model\obj\Debug\Model.dll
+E:\TAI_LIEU_HOC_DAI_HOC\2020-2021_HK1\WEB PROGRAMMING\Final_Project\OnlineShop\Model\obj\Debug\Model.pdb
+E:\TAI_LIEU_HOC_DAI_HOC\2020-2021_HK1\WEB PROGRAMMING\Final_Project\OnlineShop\Model\obj\Debug\Model.csprojAssemblyReference.cache
+C:\Users\Asus\Downloads\OnlineShop_22122020\OnlineShop\Model\bin\Debug\Model.dll.config
+C:\Users\Asus\Downloads\OnlineShop_22122020\OnlineShop\Model\bin\Debug\Model.dll
+C:\Users\Asus\Downloads\OnlineShop_22122020\OnlineShop\Model\bin\Debug\Model.pdb
+C:\Users\Asus\Downloads\OnlineShop_22122020\OnlineShop\Model\bin\Debug\EntityFramework.dll
+C:\Users\Asus\Downloads\OnlineShop_22122020\OnlineShop\Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Asus\Downloads\OnlineShop_22122020\OnlineShop\Model\bin\Debug\PagedList.dll
+C:\Users\Asus\Downloads\OnlineShop_22122020\OnlineShop\Model\bin\Debug\PagedList.Mvc.dll
+C:\Users\Asus\Downloads\OnlineShop_22122020\OnlineShop\Model\bin\Debug\EntityFramework.xml
+C:\Users\Asus\Downloads\OnlineShop_22122020\OnlineShop\Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Asus\Downloads\OnlineShop_22122020\OnlineShop\Model\bin\Debug\PagedList.xml
+C:\Users\Asus\Downloads\OnlineShop_22122020\OnlineShop\Model\bin\Debug\PagedList.Mvc.xml
+C:\Users\Asus\Downloads\OnlineShop_22122020\OnlineShop\Model\obj\Debug\Model.csprojAssemblyReference.cache
+C:\Users\Asus\Downloads\OnlineShop_22122020\OnlineShop\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Downloads\OnlineShop_22122020\OnlineShop\Model\obj\Debug\Model.csproj.CopyComplete
+C:\Users\Asus\Downloads\OnlineShop_22122020\OnlineShop\Model\obj\Debug\Model.dll
+C:\Users\Asus\Downloads\OnlineShop_22122020\OnlineShop\Model\obj\Debug\Model.pdb

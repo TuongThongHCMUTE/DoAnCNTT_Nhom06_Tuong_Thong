@@ -1,0 +1,21 @@
+﻿@model List<Model.EF.Content>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="content">
+    @foreach (var item in Model)
+    {
+        <div class="image group">
+            <div class="grid images_3_of_1">
+                <img src="@item.Image" alt="" />
+            </div>
+            <div class="grid news_desc">
+                <h3>@item.Name </h3>
+                <h4>Posted on @item.CreatedDate</h4>
+                @Html.Raw(item.Detail)
+            </div>
+        </div>
+    }
+</div>
